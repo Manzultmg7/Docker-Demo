@@ -21,4 +21,8 @@ public class controller {
     public String greet(){
         return "Namaste";
     }
+    @GetMapping("/name")
+    public String name(){
+        return "My name is Manjul Tamang";
+    }
 }
